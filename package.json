@@ -5,7 +5,8 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+     "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+    
   },
   "author": "Mo Ahmed",
   "license": "ISC",
