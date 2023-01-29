@@ -32,9 +32,9 @@ class Pagination {
     return false;
   }
   number_O_Pages() {
-    this.pagesNumber.textContent = `<- ${Math.ceil(
+    this.pagesNumber.textContent = `( ${Math.ceil(
       resultsNumber / 10
-    )} Pages -> `;
+    )} Pages ) `;
     this.pagesNumber.classList.remove("hidden");
   }
   changePrevPage() {
